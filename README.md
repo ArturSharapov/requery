@@ -3,6 +3,8 @@
 
 ### Usage
 ```ts
+import { getQueries } from 'https://deno.land/x/requery@0.0.1/mod.ts'
+
 getQueries(request, 'title', 'n:count', 'info?', 'b:all', 'n:ttl?')
 // =>
 {
